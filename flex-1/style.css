@@ -1,0 +1,36 @@
+
+
+.vsichni{
+    color: white;
+    background-color: #03031a;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    row-gap: 20px;
+}
+.emil{
+    gap: 20px;
+    order: 0;
+    flex: auto;
+    align-self: flex-start;
+}
+.pepa{
+    flex: auto;
+    align-self: center;
+}
+.jenda{
+    gap: 20px;
+    order: 4;
+    flex: auto;
+    align-self: flex-end;
+}
+.Jedu{
+    background-color: white;
+    display: block;
+    block-size: auto;
+    max-width: 500px;
+    margin: auto;
+}
